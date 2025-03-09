@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliate Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    
+    <!-- Navbar -->
+    <nav class="bg-white shadow p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Affiliate Site</h1>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="text-gray-600 hover:text-blue-500">Home</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-blue-500">Laptops</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-blue-500">Smartphones</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <div class="container mx-auto mt-6 flex">
+        
+        <!-- Left Content -->
+        <div class="w-3/4 p-4">
+            <h2 class="text-xl font-semibold mb-4">Featured Products</h2>
+            <div class="grid grid-cols-3 gap-4">
+                <!-- Product Cards -->
+                <div class="bg-white p-4 shadow rounded">
+                    <img src="https://via.placeholder.com/150" alt="Product" class="w-full">
+                    <h3 class="text-lg font-semibold mt-2">Product Name</h3>
+                    <p class="text-gray-600">Short description...</p>
+                    <a href="#" class="bg-blue-500 text-white px-3 py-2 mt-2 inline-block rounded">Buy Now</a>
+                </div>
+                <div class="bg-white p-4 shadow rounded">
+                    <img src="https://via.placeholder.com/150" alt="Product" class="w-full">
+                    <h3 class="text-lg font-semibold mt-2">Product Name</h3>
+                    <p class="text-gray-600">Short description...</p>
+                    <a href="#" class="bg-blue-500 text-white px-3 py-2 mt-2 inline-block rounded">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Right Sidebar -->
+        <div class="w-1/4 p-4 bg-white shadow rounded">
+            <h2 class="text-lg font-semibold mb-4">Search</h2>
+            <input type="text" class="w-full p-2 border rounded" placeholder="Search...">
+            
+            <h2 class="text-lg font-semibold mt-6 mb-4">Categories</h2>
+            <ul class="space-y-2">
+                <li><a href="#" class="text-gray-600 hover:text-blue-500">Laptops</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-blue-500">Smartphones</a></li>
+            </ul>
+            
+            <h2 class="text-lg font-semibold mt-6 mb-4">Top Deals</h2>
+            <div class="bg-gray-100 p-2 rounded">
+                <p class="text-gray-600">Special discount on latest smartphones!</p>
+                <a href="#" class="text-blue-500 text-sm">Check Deals</a>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
